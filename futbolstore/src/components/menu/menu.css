@@ -1,0 +1,40 @@
+/* Estilos para el contenedor principal */
+.container {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px;
+    text-align: center; /* Alinear el contenido al centro */
+  }
+  
+  /* Estilos para el encabezado */
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el menú */
+  .menu {
+    display: flex;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+  }
+  
+  .menu p {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+    padding: 10px 20px; /* Espaciado interior */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f0f0f0; /* Color de fondo */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre los enlaces */
+  }
+  
+  .menu p:not(:last-child) {
+    margin-right: 10px; /* Espacio entre los elementos */
+  }
+  
+  .menu p:hover {
+    background-color: #ccc; /* Cambiar el color de fondo al pasar el cursor */
+  }
+  
