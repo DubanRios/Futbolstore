@@ -1,14 +1,13 @@
-import './App.css'
-import Menu from './components/menu/menu'
-import Cartwidget from './components/Cartwidget/cartwidget'
+import React from 'react';
+import './App.css';
+import Menu from './components/menu/menu';
 
 function App() {
-
-
-  return(
-    <Menu />
-
-)
+  return (
+    <div className="app">
+      <Menu />
+    </div>
+  );
 }
 
-export default App
+export default App;
